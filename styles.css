@@ -71,6 +71,7 @@ button {
     text-decoration: none;
     border: none;
     cursor: pointer;
+}
 
 button:hover, .edit-btn:hover {
     color: whitesmoke;
