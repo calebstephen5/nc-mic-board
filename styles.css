@@ -41,6 +41,13 @@ input {
     margin: 5px 0;
 }
 
+label {
+    display: block;  /* Makes each label take its own line */
+    font-size: 16px; /* Adjust the text size */
+    font-weight: bold; /* Optional: Make the labels bold */
+    margin-bottom: 5px; /* Adds spacing between label and input */
+}
+
 button, .edit-btn {
     background-color: black;
     color: black;
