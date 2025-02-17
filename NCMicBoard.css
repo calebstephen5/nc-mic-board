@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: grey;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button, .edit-btn {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, .edit-btn:hover {
+    background-color: darkgrey;
+}
