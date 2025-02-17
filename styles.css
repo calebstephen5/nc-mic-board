@@ -10,7 +10,7 @@ body {
 .container {
     width: 95%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 table {
@@ -44,14 +44,20 @@ input {
 button, .edit-btn {
     background-color: black;
     color: black;
-    padding: 4px;
+    padding: 1px;
     text-decoration: none;
     border: none;
     cursor: pointer;
-    font-size: 2vw;
-
+    font-size: 12px;
 }
 
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Pushes the button to the right */
+    margin-top: 10px;
+}
+
+
 button:hover, .edit-btn:hover {
-    background-color: whitesmoke, 24, 24);
+    background-color: whitesmoke;
 }
