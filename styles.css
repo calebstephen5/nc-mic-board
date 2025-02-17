@@ -51,5 +51,5 @@ button, .edit-btn {
 }
 
 button:hover, .edit-btn:hover {
-    background-color: darkgrey;
+    background-color: rgb(25, 25, 25);
 }
