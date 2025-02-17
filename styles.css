@@ -31,7 +31,7 @@ th, td {
 
 /* Make the first column wider */
 th:first-child, td:first-child {
-    width: 40%;  /* Adjust the percentage as needed */
+    width: 10%;  /* Adjust the percentage as needed */
 }
 
 th {
