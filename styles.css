@@ -4,7 +4,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     text-transform: uppercase;
-    font-size: larger;
+    font-size: 5vw;
+    font-weight: 200;
 }
 
 .container {
@@ -27,6 +28,11 @@ th, td {
     border: 1px solid white;
     padding: 10px;
     text-align: left;
+}
+
+/* Make the first column wider */
+th:first-child, td:first-child {
+    width: 60%;  /* Adjust the percentage as needed */
 }
 
 th {
