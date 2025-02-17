@@ -66,6 +66,7 @@ button, .edit-btn {
 
 .button-container-edit-page {
     background-color: white;
+    color: black;
     display: flex;
     justify-content: flex-end; /* Pushes the button to the right */
     margin: 10px;
