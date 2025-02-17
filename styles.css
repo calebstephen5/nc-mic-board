@@ -43,9 +43,9 @@ input {
 
 label {
     display: block;  /* Makes each label take its own line */
-    font-size: 16px; /* Adjust the text size */
-    font-weight: bold; /* Optional: Make the labels bold */
-    margin-bottom: 5px; /* Adds spacing between label and input */
+    font-size: 22px; /* Adjust the text size */
+    font-weight: normal; /* Optional: Make the labels bold */
+    margin-bottom: 10px; /* Adds spacing between label and input */
 }
 
 button, .edit-btn {
