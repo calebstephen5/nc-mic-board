@@ -13,8 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 localStorage.setItem(field, document.getElementById(`edit-${field}`).value.trim());
             });
 
-            alert("Changes saved! Redirecting to table...");
-            window.location.href = "index.html"; // Redirects to index.html after saving
+            
         });
     } else {
         // Display stored values in table and hide rows with empty values
