@@ -64,6 +64,14 @@ button, .edit-btn {
     margin: 10px;
 }
 
+button {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+
 button:hover, .edit-btn:hover {
     color: whitesmoke;
 }
