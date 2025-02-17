@@ -64,6 +64,12 @@ button, .edit-btn {
     margin: 10px;
 }
 
+.button-container-edit-page {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end; /* Pushes the button to the right */
+    margin: 10px;
+}
 
 button:hover, .edit-btn:hover {
     color: whitesmoke;
