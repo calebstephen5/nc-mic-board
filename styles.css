@@ -25,15 +25,14 @@ th, td {
     text-align: left;
 }
 
-/* Ensure the first column doesn't wrap text */
+th {
+    background-color: grey;
+}
+
 th:first-child, td:first-child {
     width: 60%;  /* Adjust this as needed */
     white-space: nowrap; /* Prevents text from breaking into a new line */
     min-width: 120px;  /* Ensures enough space for "Vocal X" */
-}
-
-th {
-    background-color: grey;
 }
 
 input {
