@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
         // Display stored values in table
         fields.forEach(field => {
-            document.getElementById(field).innerText = localStorage.getItem(field) || "Click edit to modify";
+            document.getElementById(field).innerText = localStorage.getItem(field) || "";
         });
     }
 });
