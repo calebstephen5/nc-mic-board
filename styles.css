@@ -30,7 +30,7 @@ th {
 }
 
 th:first-child, td:first-child {
-    width: 60%;  /* Adjust this as needed */
+    width: 50%;  /* Adjust this as needed */
     white-space: nowrap; /* Prevents text from breaking into a new line */
     min-width: 120px;  /* Ensures enough space for "Vocal X" */
 }
