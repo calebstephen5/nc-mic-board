@@ -10,14 +10,23 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("edit-form").addEventListener("submit", function (e) {
             e.preventDefault();
             fields.forEach(field => {
-                localStorage.setItem(field, document.getElementById(`edit-${field}`).value);
+                localStorage.setItem(field, document.getElementById(`edit-${field}`).value.trim());
             });
             alert("Changes saved!");
         });
     } else {
-        // Display stored values in table
+        // Display stored values in table and hide rows with empty values
         fields.forEach(field => {
-            document.getElementById(field).innerText = localStorage.getItem(field) || "";
+            let storedValue = localStorage.getItem(field);
+            let cell = document.getElementById(field);
+            let row = cell.parentElement;
+
+            if (storedValue && storedValue.trim() !== "") {
+                cell.innerText = storedValue;
+            } else {
+                row.style.display = "none"; // Hides the row if column 2 is empty
+            }
         });
     }
 });
+
