@@ -44,7 +44,7 @@ input {
 button, .edit-btn {
     background-color: black;
     color: black;
-    padding: 10px;
+    padding: 4px;
     text-decoration: none;
     border: none;
     cursor: pointer;
