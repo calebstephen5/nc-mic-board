@@ -42,8 +42,8 @@ input {
 }
 
 button, .edit-btn {
-    background-color: grey;
-    color: white;
+    background-color: black;
+    color: black;
     padding: 10px;
     text-decoration: none;
     border: none;
