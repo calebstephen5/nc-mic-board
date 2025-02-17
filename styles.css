@@ -29,11 +29,6 @@ th, td {
     text-align: left;
 }
 
-/* Make the first column wider */
-th:first-child, td:first-child {
-    width: 10%;  /* Adjust the percentage as needed */
-}
-
 th {
     background-color: grey;
 }
