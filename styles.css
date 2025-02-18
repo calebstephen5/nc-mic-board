@@ -193,6 +193,7 @@ button:hover, .edit-btn:hover {
 .form-label {
     flex: 1;
     margin-right: 10px;
+    white-space: nowrap;
 }
 
 .form-input {
