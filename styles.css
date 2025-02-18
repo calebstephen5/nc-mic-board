@@ -156,3 +156,41 @@ button:hover, .edit-btn:hover {
 .band-table table, .setlist-table table {
     font-size: 0.35em;
 }
+
+.form-group-pair {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-group-pair .form-group {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-group-pair .form-group:last-child {
+    margin-right: 0;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.form-input {
+    flex: 2;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.button-container-edit-page {
+    text-align: center;
+    margin-top: 20px;
+}
