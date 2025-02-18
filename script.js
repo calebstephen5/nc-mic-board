@@ -1,38 +1,47 @@
 document.addEventListener("DOMContentLoaded", function () {
     const fields = [
         "row1", "row2", "row3", "row4", "row5", "row6", "row7", "row8",
-        "instrument1", "instrument2", "instrument3", "instrument4", "instrument5", "instrument6",
+        "instrument1", "instrument2", "instrument3", "instrument4",
         "misc1", "misc2", "misc3"
     ];
 
     if (document.getElementById("edit-form")) {
-        // Load stored values into input fields
+        // Populate input fields with saved data
         fields.forEach(field => {
-            document.getElementById(`edit-${field}`).value = localStorage.getItem(field) || "";
+            const inputElement = document.getElementById(`edit-${field}`);
+            if (inputElement) {
+                inputElement.value = localStorage.getItem(field) || "";
+            }
         });
 
+        // Handle form submission
         document.getElementById("edit-form").addEventListener("submit", function (e) {
-            e.preventDefault();
+            e.preventDefault(); // Prevent default form submission
+
             fields.forEach(field => {
-                localStorage.setItem(field, document.getElementById(`edit-${field}`).value.trim());
+                const inputElement = document.getElementById(`edit-${field}`);
+                if (inputElement) {
+                    localStorage.setItem(field, inputElement.value.trim());
+                }
             });
 
-            // Redirect back to index.html after saving
+            // Redirect after saving
             window.location.href = "index.html";
         });
     } else {
-        // Display stored values in tables and hide empty rows
+        // Load data into the table & hide empty rows
         fields.forEach(field => {
-            let storedValue = localStorage.getItem(field);
-            let cell = document.getElementById(field);
-            let row = cell.parentElement;
-
-            if (storedValue && storedValue.trim() !== "") {
-                cell.innerText = storedValue;
-            } else {
-                row.style.display = "none"; // Hides the row if column 2 is empty
+            const cell = document.getElementById(field);
+            if (cell) {
+                let storedValue = localStorage.getItem(field);
+                if (storedValue && storedValue.trim() !== "") {
+                    cell.innerText = storedValue;
+                } else {
+                    cell.parentElement.style.display = "none"; // Hide empty rows
+                }
             }
         });
     }
 });
+
 
