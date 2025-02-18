@@ -164,6 +164,11 @@ button:hover, .edit-btn:hover {
     font-size: 0.35em;
 }
 
+.setlist-table td:nth-child(2) {
+    width: 20%; 
+    white-space: nowrap; 
+}
+
 .form-group-pair {
     display: flex;
     justify-content: space-between;
