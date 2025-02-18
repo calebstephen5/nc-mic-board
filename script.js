@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const fields = [
         "row1", "row2", "row3", "row4", "row5", "row6", "row7", "row8",
-        "instrument1", "instrument2", "instrument3", "instrument4", "instrument5", "instrument6""
+        "instrument1", "instrument2", "instrument3", "instrument4", "instrument5", "instrument6",
         "misc1", "misc2", "misc3"
     ];
 
