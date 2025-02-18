@@ -130,6 +130,14 @@ button:hover, .edit-btn:hover {
     margin: 0 10px;
 }
 
+.band-table {
+    flex: 0 0 35%; /* 35% width */
+}
+
+.setlist-table {
+    flex: 0 0 65%; /* 65% width */
+}
+
 .table-wrapper table {
     width: 100%;
     border-collapse: collapse;
