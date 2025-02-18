@@ -14,6 +14,13 @@ h2 {
     margin: inherit
 }
 
+h3 {
+    font-size: 0.35em;
+    text-align: center;
+    white-space: nowrap;
+    margin: inherit
+}
+
 .container {
     width: 95%;
     margin: auto;
