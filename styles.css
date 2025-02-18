@@ -167,6 +167,7 @@ button:hover, .edit-btn:hover {
 .setlist-table td:nth-child(2) {
     width: 20%; 
     white-space: nowrap; 
+    text-transform: capitalize;
 }
 
 .form-group-pair {
