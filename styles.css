@@ -112,3 +112,28 @@ button:hover, .edit-btn:hover {
     text-align: center;
     margin-top: 20px;
 }
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-wrapper {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.table-wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-wrapper th, .table-wrapper td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table-wrapper th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
