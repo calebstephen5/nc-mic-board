@@ -222,4 +222,10 @@ button:hover, .edit-btn:hover {
     .band-table, .setlist-table {
         flex: 1 0 auto; /* Allow tables to take full width */
     }
+
+    th, td {
+        border: 1px solid white;
+        padding: 10px;
+        text-align: left;
+    }
 }
