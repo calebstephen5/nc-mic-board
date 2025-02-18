@@ -129,7 +129,7 @@ button:hover, .edit-btn:hover {
 
 .table-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .table-wrapper {
