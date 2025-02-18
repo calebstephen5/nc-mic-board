@@ -91,6 +91,13 @@ button:hover, .edit-btn:hover {
     color: whitesmoke;
 }
 
+.container-edit-page {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-right: 20px; /* Add 20px right padding */
+}
+
 .button-container-edit-page {
     width: 100%;
     max-width: 600px;
