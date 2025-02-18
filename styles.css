@@ -8,10 +8,10 @@ body {
 }
 
 h2 {
-    font-size: 0.85em;
+    font-size: 0.55em;
     text-align: center;
-    padding: 5px;
     white-space: nowrap;
+    margin: inherit
 }
 
 .container {
