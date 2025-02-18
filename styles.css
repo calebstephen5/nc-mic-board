@@ -7,6 +7,12 @@ body {
     font-size: 7.5vw;
 }
 
+.h2 {
+    font-size: 3vw;
+    text-align: center;
+    padding: 10px;
+}
+
 .container {
     width: 95%;
     margin: auto;
