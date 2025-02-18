@@ -11,14 +11,14 @@ h2 {
     font-size: 0.55em;
     text-align: center;
     white-space: nowrap;
-    margin: inherit
+    margin: inherit;
 }
 
 h3 {
     font-size: 0.35em;
     text-align: center;
     white-space: nowrap;
-    margin: inherit
+    margin: 10px;
 }
 
 .container {
@@ -145,7 +145,7 @@ button:hover, .edit-btn:hover {
 
 .table-wrapper th, .table-wrapper td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
 }
 
 .table-wrapper th {
@@ -155,5 +155,4 @@ button:hover, .edit-btn:hover {
 
 .band-table table, .setlist-table table {
     font-size: 0.35em;
-    padding: 25px;
 }
