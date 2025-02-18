@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const fields = ["row1", "row2", "row3", "row4", "row5", "row6", "row7", "row8"];
+    const fields = [
+        "row1", "row2", "row3", "row4", "row5", "row6", "row7", "row8",
+        "instrument1", "instrument2", "instrument3", "instrument4",
+        "misc1", "misc2", "misc3"
+    ];
 
     if (document.getElementById("edit-form")) {
         // Load stored values into input fields
@@ -13,11 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 localStorage.setItem(field, document.getElementById(`edit-${field}`).value.trim());
             });
 
-            // Redirect to index.html immediately after saving
+            // Redirect back to index.html after saving
             window.location.href = "index.html";
         });
     } else {
-        // Display stored values in table and hide rows with empty values
+        // Display stored values in tables and hide empty rows
         fields.forEach(field => {
             let storedValue = localStorage.getItem(field);
             let cell = document.getElementById(field);
@@ -31,5 +35,4 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
-
 
