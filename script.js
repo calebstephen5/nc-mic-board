@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const fields = [
         "row1", "row2", "row3", "row4", "row5", "row6", "row7", "row8",
         "instrument1", "instrument2", "instrument3", "instrument4", "instrument5", "instrument6",
-        "key1", "key2", "key3",
+        "song1", "song2", "song3", "song4", "song5", "song6", "song7",
+        "key1", "key2", "key3", "key4", "key5", "key6", "key7",
     ];
 
     if (document.getElementById("edit-form")) {
