@@ -211,9 +211,6 @@ button:hover, .edit-btn:hover {
 
 /* Media query for screens less than 625px */
 @media (max-width: 625px) {
-    body {
-        font-size: 4vw;
-    }
     .table-container {
         flex-direction: column;
         align-items: center;
@@ -232,5 +229,9 @@ button:hover, .edit-btn:hover {
         border: 1px solid white;
         padding: 10px;
         text-align: left;
+    }
+
+    .band-table table, .setlist-table table {
+        font-size: 6.5vw;
     }
 }
