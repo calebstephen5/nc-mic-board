@@ -188,7 +188,6 @@ button:hover, .edit-btn:hover {
 .form-group {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .form-label {
