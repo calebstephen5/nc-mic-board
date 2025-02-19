@@ -88,7 +88,7 @@ button {
 }
 
 button:hover, .edit-btn:hover {
-    color: whitesmoke;
+    color: gray;
 }
 
 .container-edit-page {
