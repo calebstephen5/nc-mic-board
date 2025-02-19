@@ -134,7 +134,7 @@ button:hover, .edit-btn:hover {
 
 .table-wrapper {
     flex: 1;
-    margin: 0 10px;
+    margin: 0px 0px 10px 0px;
 }
 
 .band-table {
@@ -217,7 +217,7 @@ button:hover, .edit-btn:hover {
     }
 
     .table-wrapper {
-        margin: 10px 0;
+        margin: 0px 0px 10px 0px;
         width: 100%;
     }
 
