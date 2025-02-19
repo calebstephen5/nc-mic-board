@@ -173,7 +173,7 @@ button:hover, .edit-btn:hover {
 .form-group-pair {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .form-group-pair .form-group {
