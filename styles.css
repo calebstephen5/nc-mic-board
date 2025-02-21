@@ -208,10 +208,6 @@ button:hover, .edit-btn:hover {
     margin-top: 20px;
 }
 
-.form-group-pair-band-director {
-    font-size: 3.5vw;
-}
-
 /* Media query for screens less than 625px */
 @media (max-width: 625px) {
     .table-container {
