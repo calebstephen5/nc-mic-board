@@ -27,6 +27,10 @@ h3 {
     padding-top: 5px;
 }
 
+.container-bd {
+    font-size: 4vw;;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
